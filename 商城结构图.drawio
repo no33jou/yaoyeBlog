@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T10:13:13.607Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.3" etag="1XsYsco7l9IVooC1Mtq4" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7ZjbctowEIafhksYH8LpEggkM22SmZK218JabDWy5MoCQ56+K1uObZzSZJqUdIYrW7/W2tWu9rOh48/i3ZUiSXQjKfCO59Bdx7/seJ7reT5ejLIvlNHQLYRQMWqNKmHJHsGKjlU3jELaMNRScs2SphhIISDQDY0oJbOm2VrypteEhNASlgHhbfU7ozqyu/CGlX4NLIxKz+5gXMzEpDS2O0kjQmVWk/x5x58pKXVxF+9mwE3yyrwUzy1+M/sUmAKhX/IAvd3tbz8Ng+Fo9TnbphRurvtd1y6zJXxjd3ynwiAiStuo9b5MRZqxmBOBo2mkY46ii7epRltbN4wA56Rij1JoUloEZsAEqPt9Yqy0ArNGyElqimOeae+ljAuUhl1Nsnu7AhmDVns0sbMXNs3lObPDrCrasDxTUa1g3tiKxB6U8GnlKpd4Y9OZD7+moO5WP8xx8xxOVsCLRzteX5AY8NLxBhwdTFcK70Kd77BQWCOng58bU35MEZeq40/yNiD7aqJ6vJ/IlGkmRW15jIsdOmi7JGbLCtYNjzFhXMvcZR/MoFj2wO28mHnyRqq1Tc7y3eZbv4c0NX5uGOegbDnLgHOL2eKukLkMSCXfrdcswJQ5tuBFLPkUrn3hwI7ECYdeIGO7KicBRNjGoJqtzZl4KIRIa0OHiamft8iyrEcVyXpMFobHG8KrnTLbQbUesNWesrjgRtNVQIXfY3je10xgfEXQC0o0MZVCPcXrBk9Pl2xRVGkXY1/0jc9cTrs+BjDqJSJEH1nENCwT3C46yhCvzcZTcoNOqO2gejeZBruRW2ZWyU2NsMCUVUq74Y7j4cVt6A2afdhv96E7eqYPh69vQxzWOvE10PNb0GvBDgSdmNcHjlZ4Yh/uI4YndorygvGyBGskm0Wfa8ZA8d1h1wC+ktm8Eqa5gBMmlywwdDwo4StrksqNCuCPRxnfl0SFcHTFC9t7tPEubNdYAcfW3TZfjWdw/g045zQjihpySqVYaqJss3OqiMhtiEDsqKMc9T4IRy9OylHXeTuUNsnZguu7ofTgi8Z95pPmWZSO/iVK+2eUNgwHZ5SeDKVbgoE53/C3m36OotdfULpkCnMmjzO0fB+emqGDkzJ03PX+d4Qefo1+TIYOzwxtGI7ODD0VQye8+AZ1LqWQOU/bHF3uUw0IE2dCYyaOgtT/ICAdnRSkb4LR9/vMHJ+UkShV/4Hm5rV/kv35Lw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-31T12:48:40.910Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Q_49KjGYnwX9f12OQmnM" version="14.5.3" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="895" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-6" value="Hexagon" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-7" value="Cocoapod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="555" width="520" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-8" value="App壳" style="swimlane;startSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-9" value="AppDelegate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-8">
+          <mxGeometry y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-10" value="图标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-8">
+          <mxGeometry x="90" y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-11" value="启动图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-8">
+          <mxGeometry x="180" y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-12" value="模块加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-8">
+          <mxGeometry x="270" y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-13" value="...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-8">
+          <mxGeometry x="360" y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-14" value="UserModule" style="swimlane;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="160" y="144" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-15" value="Bundle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-14">
+          <mxGeometry x="10" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-16" value="Classes" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;startSize=16;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-14">
+          <mxGeometry x="10" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-17" value="Service IMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-16">
+          <mxGeometry x="10" y="37" width="90" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-18" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-16">
+          <mxGeometry x="10" y="17" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-19" value="UserModuleService" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="260" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-22" value="Service API" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-19">
+          <mxGeometry x="5" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-23" value="Service Model" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-19">
+          <mxGeometry x="5" y="50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-24" value="Notification Name" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-19">
+          <mxGeometry x="5" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-25" value="Page Path Name" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-19">
+          <mxGeometry x="5" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU95mLcBvVO3n_A5TRTx-17" target="YU95mLcBvVO3n_A5TRTx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-27" value="GoodsModule" style="swimlane;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="144" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-28" value="Bundle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-27">
+          <mxGeometry x="10" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-29" value="Classes" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;startSize=16;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-27">
+          <mxGeometry x="10" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-30" value="Service IMP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-29">
+          <mxGeometry x="10" y="37" width="90" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-31" value="Feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-29">
+          <mxGeometry x="10" y="17" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-32" value="GoodsModuleService" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-33" value="Service API" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-32">
+          <mxGeometry x="5" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-34" value="Service Model" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-32">
+          <mxGeometry x="5" y="50" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-35" value="Notification Name" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-32">
+          <mxGeometry x="5" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-36" value="Page Path Name" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="YU95mLcBvVO3n_A5TRTx-32">
+          <mxGeometry x="5" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YU95mLcBvVO3n_A5TRTx-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="YU95mLcBvVO3n_A5TRTx-30" target="YU95mLcBvVO3n_A5TRTx-32" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
